@@ -44,6 +44,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Freshdesk": {
+              "target": "Package",
+              "version": "[0.6.1, )",
+              "noWarn": [
+                "NU1701"
+              ]
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"

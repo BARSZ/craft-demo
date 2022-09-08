@@ -569,7 +569,10 @@
         "dependencies": {
           "Freshdesk": {
             "target": "Package",
-            "version": "[0.6.1, )"
+            "version": "[0.6.1, )",
+            "noWarn": [
+              "NU1701"
+            ]
           },
           "Freshdesk.Api": {
             "target": "Package",
@@ -594,17 +597,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Freshdesk 0.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Freshdesk",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

@@ -46,7 +46,10 @@
           "dependencies": {
             "Freshdesk": {
               "target": "Package",
-              "version": "[0.6.1, )"
+              "version": "[0.6.1, )",
+              "noWarn": [
+                "NU1701"
+              ]
             },
             "Freshdesk.Api": {
               "target": "Package",

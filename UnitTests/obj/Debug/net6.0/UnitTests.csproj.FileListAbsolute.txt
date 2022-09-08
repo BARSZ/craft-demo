@@ -97,3 +97,4 @@ B:\Assignments\craft-demo\UnitTests\obj\Debug\net6.0\refint\UnitTests.dll
 B:\Assignments\craft-demo\UnitTests\obj\Debug\net6.0\UnitTests.pdb
 B:\Assignments\craft-demo\UnitTests\obj\Debug\net6.0\UnitTests.genruntimeconfig.cache
 B:\Assignments\craft-demo\UnitTests\obj\Debug\net6.0\ref\UnitTests.dll
+B:\Assignments\craft-demo\UnitTests\bin\Debug\net6.0\Freshdesk.dll

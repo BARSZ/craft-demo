@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gFXeHrKgJjMWO3PQezu0ko4BkKtyL+lXPKTyi3Xn5M3pLNP3/KB0v3JxhtMsWQ/5la/hgttN1/q+PA9zEv5W+w==",
+  "dgSpecHash": "mV/+N2knmtjeflrQE97UoQv7H34ztnFBY6Gl15V5z82TycSS/k2cu61F5h+UOEry7mSw+E5F39U1vSgmTjHTdQ==",
   "success": true,
   "projectFilePath": "B:\\Assignments\\craft-demo\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GRIGS\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\GRIGS\\.nuget\\packages\\freshdesk\\0.6.1\\freshdesk.0.6.1.nupkg.sha512",
     "C:\\Users\\GRIGS\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\GRIGS\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\GRIGS\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",

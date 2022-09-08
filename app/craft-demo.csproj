@@ -8,9 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Freshdesk" Version="0.6.1" />
+    <PackageReference Include="Freshdesk" Version="0.6.1" NoWarn="NU1701"/>
     <PackageReference Include="Freshdesk.Api" Version="0.12.0" />
-    
   </ItemGroup>
 
 </Project>

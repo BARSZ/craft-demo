@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yLeiHr4qgvlt0j75ReQRhQxvALY1FeXu+sqhF6nn71kXClSnakZdJoozc9+sUIfGfR/StHCnN/tsyFYAXPlqqQ==",
+  "dgSpecHash": "z8+GUBaoVk9OBf8LnQkTL7Z14oWRGxk0mZ/2+3cUctMd07NoqtEnbBXKDz401r7to1YAvJI0qeYgcFfPLydwng==",
   "success": true,
   "projectFilePath": "B:\\Assignments\\craft-demo\\app\\craft-demo.csproj",
   "expectedPackageFiles": [
@@ -19,16 +19,5 @@
     "C:\\Users\\GRIGS\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\GRIGS\\.nuget\\packages\\tiberhealth.serializer\\1.0.48\\tiberhealth.serializer.1.0.48.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Freshdesk 0.6.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Freshdesk",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

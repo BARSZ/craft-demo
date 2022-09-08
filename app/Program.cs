@@ -15,7 +15,7 @@ namespace CraftDemo
         private static readonly HttpClient client = new HttpClient();
         static async Task Main(string[] args)
         {
-            System.Console.Write("Enter username: ");
+            System.Console.Write("Enter GitHub username: ");
             string username = Console.ReadLine();
 
             if(username is not null)
@@ -43,7 +43,7 @@ namespace CraftDemo
              FreshdeskService freshdeskService = new FreshdeskService("WczThvvBuAaZfNDx0dg3", new Uri("https://vasilsimeonov.freshdesk.com"));
              bool contactExists = false;
 
-             //Get a list of contacts
+             //Get a list of Freshdesk contacts
              var users = freshdeskService.GetUsers().ToList();
 
              foreach(var user in users)

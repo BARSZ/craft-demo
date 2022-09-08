@@ -8,6 +8,18 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Freshdesk/0.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net45/Freshdesk.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Freshdesk.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "type": "package",
         "compile": {
@@ -1723,6 +1735,18 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Freshdesk/0.6.1": {
+      "sha512": "PB+8GNsn3sm8BIh7xAgsUC3RAHpeuwJGTVDC8tyXYZSkNtBGFWj/qRcXA0emaDwYP51fpDg34JZN/q2AGiH3JA==",
+      "type": "package",
+      "path": "freshdesk/0.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "freshdesk.0.6.1.nupkg.sha512",
+        "freshdesk.nuspec",
+        "lib/net45/Freshdesk.dll"
       ]
     },
     "Microsoft.CodeCoverage/16.11.0": {
@@ -5966,6 +5990,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Freshdesk >= 0.6.1",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
@@ -6016,6 +6041,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Freshdesk": {
+            "target": "Package",
+            "version": "[0.6.1, )",
+            "noWarn": [
+              "NU1701"
+            ]
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.11.0, )"

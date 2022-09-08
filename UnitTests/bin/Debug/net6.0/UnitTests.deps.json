@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "UnitTests/1.0.0": {
         "dependencies": {
+          "Freshdesk": "0.6.1",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "coverlet.collector": "3.1.0",
           "xunit": "2.4.1",
@@ -18,6 +19,17 @@
         }
       },
       "coverlet.collector/3.1.0": {},
+      "Freshdesk/0.6.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/net45/Freshdesk.dll": {
+            "assemblyVersion": "0.6.1.0",
+            "fileVersion": "0.6.1.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/16.11.0": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1103,6 +1115,13 @@
       "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
       "path": "coverlet.collector/3.1.0",
       "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "Freshdesk/0.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PB+8GNsn3sm8BIh7xAgsUC3RAHpeuwJGTVDC8tyXYZSkNtBGFWj/qRcXA0emaDwYP51fpDg34JZN/q2AGiH3JA==",
+      "path": "freshdesk/0.6.1",
+      "hashPath": "freshdesk.0.6.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/16.11.0": {
       "type": "package",
